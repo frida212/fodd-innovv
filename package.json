@@ -8,7 +8,7 @@
     "build": "npm run build:frontend",
     "build:frontend": "cd frontend && npm install && npm run build",
     "start": "node api/index.js",
-    "vercel-build": "npm run build:frontend"
+    "vercel-build": "echo 'Building frontend...' && cd frontend && npm install && npm run build && echo 'Frontend build complete!'"
   },
   "dependencies": {
     "express": "^4.19.2",
