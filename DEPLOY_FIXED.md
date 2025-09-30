@@ -6,6 +6,7 @@
 2. **Updated package versions**: Used stable, compatible versions
 3. **Simplified API structure**: Created self-contained serverless functions
 4. **Added demo data**: Works without external database initially
+5. **Fixed vercel.json**: Removed conflicting `functions` property with `builds`
 
 ## 🛠️ Quick Deploy Steps
 
